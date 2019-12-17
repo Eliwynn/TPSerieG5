@@ -1,0 +1,123 @@
+[
+    {
+        "titre": "24H Chrono",
+        "type": "Action",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre 01"
+            },
+            {
+                "numero": "02",
+                "titre": "Titre 02"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Friends",
+        "type": "Comédie",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Stargate",
+        "type": "Science-Fiction",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Orange is the new black",
+        "type": "Drame",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Les Simpsons",
+        "type": "Comédie",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Alerte Cobra",
+        "type": "Action",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Murder",
+        "type": "Drame",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Star Trek",
+        "type": "Science-Fiction",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Inspecteur Derrick",
+        "type": "Action",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    }
+]
