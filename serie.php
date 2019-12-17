@@ -11,8 +11,11 @@
 
     <body>
         <div class="headerContainer">
-            <div id="logo"><img src="img/logo.png"/></div>
-            <div id="navBar">Navbar</div>
+            <div id="logo"><a href="index.php"><img src="img/logo.png"/></a></div>
+            <div id="navBar">
+                <a href="index.php">Liste des séries</a> 
+                <a href="favoris.php">Mes Favoris</a>
+            </div>
         </div>
 
         <div class="detailContainer">
@@ -27,6 +30,8 @@
             </div>
         </div>
 
+        <div class="titreRecom">Vous aimez <?=$json_data[$_GET["s"]]["titre"]?>, vous allez adorer ...</div>
+
         <div class="serieContainer">
         <?php
         $json = file_get_contents('JSON/series.json');
@@ -40,9 +45,6 @@
                 <?php 
                 echo '<div class="serieTitre"><a href="serie.php?s='.$i.'"><h3>'.$json_data[$i]["titre"].'</h3></a></div>';
                 echo '</div>';
-            }
-            else {
-                echo "Rien ne peut vous plaire ! Vous aimez déjà tout !";
             }
         } ?>
         </div>

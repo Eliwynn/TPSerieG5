@@ -9,8 +9,11 @@
 
     <body>
         <div class="headerContainer">
-            <div id="logo"><img src="img/logo.png"/></div>
-            <div id="navBar">Navbar</div>
+            <div id="logo"><a href="index.php"><img src="img/logo.png"/></a></div>
+            <div id="navBar">
+                <a href="#">Liste des séries</a> 
+                <a href="favoris.php">Mes Favoris</a>
+            </div>
         </div>
 
         <div class="serieContainer">
