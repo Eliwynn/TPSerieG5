@@ -18,11 +18,16 @@
         $json = file_get_contents('JSON/series.json');
         $json_data = json_decode($json,true);
         
-        for($i = 0; $i < count($json_data); $i++){ ?>
-            <div class="serieBloc" style="background-image: url('img/<?=$json_data[$i]["image"].'.jpg'?>')">
+        for($i = 0; $i < count($json_data); $i++){ 
+            if($json_data[$i]["favori"] == "true"){ ?>
+                <div class="serieBloc" style="background-image: url('img/<?=$json_data[$i]["image"].'.jpg'?>')">
                 <?php 
                 echo '<div class="serieTitre"><a href="serie.php?s='.$i.'"><h3>'.$json_data[$i]["titre"].'</h3></a></div>';
                 echo '</div>';
+            }
+            else {
+                // Pas favori, donc rien !
+            }
         } ?>
         </div>
     </body>

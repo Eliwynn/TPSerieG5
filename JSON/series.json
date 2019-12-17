@@ -2,7 +2,8 @@
     {
         "titre": "24H Chrono",
         "type": "Action",
-        "resume": "Résumé",
+        "image": "ac/ac01",
+        "resume": "Agent fédéral et responsable de la Cellule Anti-Terroriste de Los Angeles, Jack Bauer a 24 heures pour mener à bien sa mission, empêcher que des terroristes ne mettent leur plan à exécution, protéger les siens du danger qui les menacent, et sauver l’Amérique au besoin … Chaque saison correspond à 24 heures dans la vie de Jack Bauer en temps réel.",
         "listeEpisodes": 
         [
             {
@@ -18,11 +19,12 @@
                 "titre": "Titre 03"
             }
         ],
-        "favori": "false"
+        "favori": "true"
     },
     {
         "titre": "Friends",
         "type": "Comédie",
+        "image": "com/com02",
         "resume": "Résumé",
         "listeEpisodes": 
         [
@@ -31,11 +33,12 @@
                 "titre": "Titre"
             }
         ],
-        "favori": "false"
+        "favori": "true"
     },
     {
-        "titre": "Stargate",
+        "titre": "Stargate SG-1",
         "type": "Science-Fiction",
+        "image": "sf/sf04",
         "resume": "Résumé",
         "listeEpisodes": 
         [
@@ -44,11 +47,12 @@
                 "titre": "Titre"
             }
         ],
-        "favori": "false"
+        "favori": "true"
     },
     {
         "titre": "Orange is the new black",
         "type": "Drame",
+        "image": "dra/dra04",
         "resume": "Résumé",
         "listeEpisodes": 
         [
@@ -62,6 +66,7 @@
     {
         "titre": "Les Simpsons",
         "type": "Comédie",
+        "image": "com/com03",
         "resume": "Résumé",
         "listeEpisodes": 
         [
@@ -75,6 +80,7 @@
     {
         "titre": "Alerte Cobra",
         "type": "Action",
+        "image": "ac/ac03",
         "resume": "Résumé",
         "listeEpisodes": 
         [
@@ -86,21 +92,9 @@
         "favori": "false"
     },
     {
-        "titre": "Murder",
-        "type": "Drame",
-        "resume": "Résumé",
-        "listeEpisodes": 
-        [
-            {
-                "numero": "01",
-                "titre": "Titre"
-            }
-        ],
-        "favori": "false"
-    },
-    {
-        "titre": "Star Trek",
+        "titre": "Star Trek Discovery",
         "type": "Science-Fiction",
+        "image": "sf/sf03",
         "resume": "Résumé",
         "listeEpisodes": 
         [
@@ -114,6 +108,119 @@
     {
         "titre": "Inspecteur Derrick",
         "type": "Action",
+        "image": "ac/ac04",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Agents of S.H.I.E.L.D",
+        "type": "Action",
+        "image": "ac/ac02",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "How I Met Your Mother",
+        "type": "Comédie",
+        "image": "com/com01",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "The Big Bang Theory",
+        "type": "Comédie",
+        "image": "com/com04",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Hannibal",
+        "type": "Drame",
+        "image": "dra/dra01",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Dexter",
+        "type": "Drame",
+        "image": "dra/dra02",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "The Walking Dead",
+        "type": "Drame",
+        "image": "dra/dra03",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Altered Carbon",
+        "type": "Science-Fiction",
+        "image": "sf/sf01",
+        "resume": "Résumé",
+        "listeEpisodes": 
+        [
+            {
+                "numero": "01",
+                "titre": "Titre"
+            }
+        ],
+        "favori": "false"
+    },
+    {
+        "titre": "Stranger Things",
+        "type": "Action",
+        "image": "sf/sf02",
         "resume": "Résumé",
         "listeEpisodes": 
         [

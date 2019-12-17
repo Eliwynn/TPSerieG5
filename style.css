@@ -1,19 +1,26 @@
+a:-webkit-any-link{
+    text-decoration:none !important;
+}
+
+body {
+    background-color: black;
+}
+
 .headerContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: no wrap;
-    background-color: cornflowerblue;
     height: 100px;
+    max-width: 85%;
     border: 1px solid black;
     border-radius: 20px;
-    justify-content: center;
+    margin: auto;
 }
 
 #logo {
     flex: 1;
     justify-content: center;
     text-align: center;
-    border: 1px solid black;
     margin: 10px;
 }
 
@@ -40,30 +47,89 @@
     margin: 10px 10px;
     flex: 1 0 25%;
     max-width: 20%;
+    height: 250px;
     background-color: grey;
     border: 1px solid black;
     border-radius: 20px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .serieBloc h3 {
-    color: red;
+    opacity: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 26px;
+}
+
+.serieBloc:hover h3 {
+    opacity: 1;
 }
 
 .serieBloc h4 {
     color: blue;
 }
 
+.serieImage {
+    flex: 1;
+}
+
+.serieImage img{
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.detailTexte {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin: 10px;
+    font-family: 'Montserrat';
+}
+
+.serieTitre {
+    flex: 1;
+    font-size: 36px;
+    color: white;
+    margin-left: 10px;
+}
+
+.serieTitre h3 {
+    margin-bottom: 10px;
+}
+
+.serieType {
+    flex: 1;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.serieResume {
+    flex: 3;
+    color: white;
+    margin: 10px;
+}
+
 .listeEpisodes {
-    margin-bottom: 20px;
+    flex: 1;
+    color: white;
+    margin: 10px;
+    font-family: 'Montserrat';
 }
 
-.accordionContainer {
-    display: none;
-}
-
-.plusButton {
-    width: 50px;
+.detailContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no wrap;
+    height: 500px;
+    max-width: 85%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
 }
