@@ -3,6 +3,8 @@ a:-webkit-any-link{
     text-decoration:none !important;
 }
 
+
+
 body {
     background-color: black;
 }
@@ -121,6 +123,13 @@ body {
     margin: 10px;
 }
 
+.serieRating {
+    flex: 1;
+    color: white;
+    margin: 10px;
+    
+}
+
 .listeEpisodes {
     flex: 1;
     color: white;
@@ -148,4 +157,62 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+#burgerNav {
+    display: none;
+}
+
+@media only screen and (max-width: 425px) {
+    #logo {
+        flex: 2;
+        
+        margin-top: auto;
+        margin-bottom: auto;
+        margin: 0px;
+    }
+
+    #logo img {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    #navBar {
+        display: none;
+    }
+
+    #burgerNav {
+        display: initial;
+        flex: 1;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        color: white;
+    }
+
+    .serieContainer {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+
+    .serieBloc {
+        background-image: none !important;
+        background-color: black;
+        min-width: 200px;
+        max-height: 50px;
+        border-radius: 0px;
+        border: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .serieTitre a h3{
+        opacity: 1;
+        color: white;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 20px;
+    }
 }

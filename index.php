@@ -2,8 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>TP Series</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0ae3795648.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
@@ -13,6 +15,9 @@
             <div id="navBar">
                 <a href="#">Liste des séries</a> 
                 <a href="favoris.php">Mes Favoris</a>
+            </div>
+            <div id="burgerNav">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
 
