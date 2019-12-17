@@ -1,3 +1,69 @@
-h3 {
-    font-size: 450px;
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no wrap;
+    background-color: cornflowerblue;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#logo {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#navBar {
+    flex: 3;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.serieContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.serieBloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 10px;
+    flex: 1 0 25%;
+    max-width: 20%;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.serieBloc h3 {
+    color: red;
+}
+
+.serieBloc h4 {
+    color: blue;
+}
+
+.listeEpisodes {
+    margin-bottom: 20px;
+}
+
+.accordionContainer {
+    display: none;
+}
+
+.plusButton {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
