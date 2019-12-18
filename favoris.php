@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>TP Series</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -10,7 +11,10 @@
     <body>
         <div class="headerContainer">
             <div id="logo"><img src="img/logo.png"/></div>
-            <div id="navBar">Navbar</div>
+            <div id="navBar">
+                <a href="index.php">Liste des séries</a> 
+                <a href="favoris.php">Mes Favoris</a>
+            </div>
         </div>
 
         <div class="serieContainer">
